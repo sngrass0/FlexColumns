@@ -1,0 +1,31 @@
+* {
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.col {
+    background-color: rgb(124, 195, 190);
+    padding: 30px;
+    margin: 10px 0px;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: rgb(124, 195, 190);
+    padding: 30px;
+    margin: 10px 0px;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: rgb(124, 195, 190);
+    padding: 30px;
+    /* margin: 10px; */
+    flex: 3;
+}
